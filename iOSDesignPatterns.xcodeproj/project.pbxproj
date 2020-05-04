@@ -45,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97630EC6245F67FA000D59B8 /* ProtocolDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				97884D93245DF660009FB29C /* ProtocolDelegateViewController.h */,
+				97884D94245DF660009FB29C /* ProtocolDelegateViewController.m */,
+				97884DA6245DF694009FB29C /* WeatherService.h */,
+				97884DA7245DF694009FB29C /* WeatherService.m */,
+			);
+			path = ProtocolDelegate;
+			sourceTree = "<group>";
+		};
 		97884D81245DF660009FB29C = {
 			isa = PBXGroup;
 			children = (
@@ -68,15 +79,12 @@
 				97884D8E245DF660009FB29C /* AppDelegate.m */,
 				97884D90245DF660009FB29C /* SceneDelegate.h */,
 				97884D91245DF660009FB29C /* SceneDelegate.m */,
-				97884D93245DF660009FB29C /* ProtocolDelegateViewController.h */,
-				97884D94245DF660009FB29C /* ProtocolDelegateViewController.m */,
+				97630EC6245F67FA000D59B8 /* ProtocolDelegate */,
 				97884D96245DF660009FB29C /* Main.storyboard */,
 				97884D99245DF662009FB29C /* Assets.xcassets */,
 				97884D9B245DF662009FB29C /* LaunchScreen.storyboard */,
 				97884D9E245DF662009FB29C /* Info.plist */,
 				97884D9F245DF662009FB29C /* main.m */,
-				97884DA6245DF694009FB29C /* WeatherService.h */,
-				97884DA7245DF694009FB29C /* WeatherService.m */,
 			);
 			path = iOSDesignPatterns;
 			sourceTree = "<group>";
